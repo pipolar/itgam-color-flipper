@@ -8,7 +8,7 @@ const color = document.querySelector(".color");
 // Add event listener to the button
 btn.addEventListener("click", () => {
     // Obtener un numero aleatorio del 0 al 3
-    const randomNumber = getRandomNumber();
+    const randomNumber = getRandomNumber(); 
     //Seleccionando un elemento
     //Del arreglo colors
     const colorPicked = colors[randomNumber];
